@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="VCS Repositories" max_length="40" name="x_325709_terraform_vcs_repositories" type="collection">
+    <element label="VCS Repositories" max_length="40" name="x_325709_terraform_vcs_repositories" sizeclass="1" type="collection">
         <element choice="2" label="Branch" max_length="255" name="branch" type="string_full_utf8">
             <choice/>
         </element>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_schedule">
     <wf_workflow_schedule action="INSERT_OR_UPDATE">
         <active>true</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>Worker Poll Apply Run</name>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -25,6 +27,7 @@
         <sys_update_name>wf_workflow_schedule_5ef404eadb823300176661ca0b961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-17 19:49:23</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <workflow display_value="Poll Apply Run">e92544eadb823300176661ca0b961912</workflow>
     </wf_workflow_schedule>

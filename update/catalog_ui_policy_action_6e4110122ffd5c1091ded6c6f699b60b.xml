@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:7e8014de2fbd5c1091ded6c6f699b62c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 08:01:29</sys_created_on>
+        <sys_id>6e4110122ffd5c1091ded6c6f699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6e4110122ffd5c1091ded6c6f699b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 08:01:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Type">a501d8de2fbd5c1091ded6c6f699b687</ui_policy>
+        <variable>type</variable>
+        <variable_set display_value="Manage my VM size variable set">6702bfed2f21101091ded6c6f699b604</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>terraform_output</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // var commentsArr = current.comments.getJournalEntry(1).split("\n");
+    // commentsArr.shift();
+    // template.print(commentsArr.join("\n"));
+
+    var notes = current.comments.getJournalEntry(1);
+    
+    //notes = notes.substring(notes.indexOf('GID'), notes.lastIndexOf('[/code]'));
+    template.print('<pre>' + notes + '</pre>');
+	
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 11:08:45</sys_created_on>
+        <sys_id>df88875e2f61901091ded6c6f699b63d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>terraform_output</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sys_script_email_df88875e2f61901091ded6c6f699b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 07:16:29</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_325709_terraform.scheduletime</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>scheduletime</name>
+        <script><![CDATA[var scheduletime = Class.create();
+scheduletime.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   
+	getsession: function(){
+		var session = gs.getSession();
+var zoneName = session.getTimeZoneName();
+	return zoneName;
+}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-10 12:50:21</sys_created_on>
+        <sys_id>cd16752f2fb1905091ded6c6f699b6e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>scheduletime</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sys_script_include_cd16752f2fb1905091ded6c6f699b6e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-10 13:01:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

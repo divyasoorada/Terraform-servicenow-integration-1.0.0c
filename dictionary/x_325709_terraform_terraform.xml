@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Terraform" max_length="40" name="x_325709_terraform_terraform" type="collection">
+    <element audit="true" label="Terraform" max_length="40" name="x_325709_terraform_terraform" sizeclass="135" type="collection">
         <element display="true" label="Last Known State" max_length="255" name="last_known_state" read_only="true" type="string_full_utf8"/>
         <element label="Request" max_length="32" name="request" read_only="true" reference="sc_request" type="reference"/>
         <element label="Requested Item" max_length="32" name="requested_item" read_only="true" reference="sc_req_item" type="reference"/>
